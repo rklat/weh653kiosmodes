@@ -19,6 +19,15 @@ namespace OEMTitleBarHandler
         public void Dispose(){
 
         }
+        public bool enableTaskbar(bool bEnable)
+        {
+            bool bRet = false;
+            IntPtr hTaskbar = FindWindow("HHTaskBar", String.Empty);
+            if (hTaskbar != IntPtr.Zero)
+                bRet = EnableWindow(hTaskbar, bEnable);
+            return bRet;
+        }
+
         public bool hideTaskbar(bool bHide)
         {
             if (bHide)

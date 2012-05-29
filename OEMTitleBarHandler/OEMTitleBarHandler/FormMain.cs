@@ -379,5 +379,17 @@ namespace OEMTitleBarHandler
             }
         }
 
+        private void mnuLockTaskbar_Click(object sender, EventArgs e)
+        {
+            mnuLockTaskbar.Checked = !mnuLockTaskbar.Checked;
+            if (_fullscreen.enableTaskbar(!mnuLockTaskbar.Checked))
+                if (mnuLockTaskbar.Checked)
+                    addText("Taskbar locked");
+                else
+                    addText("Taskbar unlocked");
+            else
+                addText("enableTaskbar failed");
+        }
+
     }
 }

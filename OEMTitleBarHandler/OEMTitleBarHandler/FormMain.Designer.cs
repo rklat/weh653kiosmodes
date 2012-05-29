@@ -48,6 +48,7 @@
             this.mnuCnctDisableCannotConnect = new System.Windows.Forms.MenuItem();
             this.mnuCnctEnableCannotConnect = new System.Windows.Forms.MenuItem();
             this.mnuReDirectRemnet = new System.Windows.Forms.MenuItem();
+            this.mnuReplaceRemnet = new System.Windows.Forms.MenuItem();
             this.mnuShFullScreen = new System.Windows.Forms.MenuItem();
             this.mnuStartIconShow = new System.Windows.Forms.MenuItem();
             this.mnuSIPShow = new System.Windows.Forms.MenuItem();
@@ -58,9 +59,9 @@
             this.mnuBlacklistAdd = new System.Windows.Forms.MenuItem();
             this.mnuBlacklistRemove = new System.Windows.Forms.MenuItem();
             this.mnuBlacklistEnable = new System.Windows.Forms.MenuItem();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.mnuAllKeys = new System.Windows.Forms.MenuItem();
-            this.mnuReplaceRemnet = new System.Windows.Forms.MenuItem();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.mnuLockTaskbar = new System.Windows.Forms.MenuItem();
             this.SuspendLayout();
             // 
             // mainMenu1
@@ -93,6 +94,7 @@
             this.mnuWindowOptions.MenuItems.Add(this.mnuHideMainMenu);
             this.mnuWindowOptions.MenuItems.Add(this.mnuSIPIcon);
             this.mnuWindowOptions.MenuItems.Add(this.mnuStartMenuShow);
+            this.mnuWindowOptions.MenuItems.Add(this.mnuLockTaskbar);
             this.mnuWindowOptions.Text = "Window Options";
             // 
             // mnuControlBox
@@ -179,6 +181,11 @@
             this.mnuReDirectRemnet.Text = "ReDirect Remnet";
             this.mnuReDirectRemnet.Click += new System.EventHandler(this.mnuReDirectRemnet_Click);
             // 
+            // mnuReplaceRemnet
+            // 
+            this.mnuReplaceRemnet.Text = "Replace Remnet";
+            this.mnuReplaceRemnet.Click += new System.EventHandler(this.mnuReplaceRemnet_Click);
+            // 
             // mnuShFullScreen
             // 
             this.mnuShFullScreen.MenuItems.Add(this.mnuStartIconShow);
@@ -237,6 +244,11 @@
             this.mnuBlacklistEnable.Text = "Enable Blacklist";
             this.mnuBlacklistEnable.Click += new System.EventHandler(this.mnuBlacklistEnable_Click);
             // 
+            // mnuAllKeys
+            // 
+            this.mnuAllKeys.Text = "AllKeys";
+            this.mnuAllKeys.Click += new System.EventHandler(this.mnuAllKeys_Click);
+            // 
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -246,15 +258,10 @@
             this.textBox1.Size = new System.Drawing.Size(240, 268);
             this.textBox1.TabIndex = 0;
             // 
-            // mnuAllKeys
+            // mnuLockTaskbar
             // 
-            this.mnuAllKeys.Text = "AllKeys";
-            this.mnuAllKeys.Click += new System.EventHandler(this.mnuAllKeys_Click);
-            // 
-            // mnuReplaceRemnet
-            // 
-            this.mnuReplaceRemnet.Text = "Replace Remnet";
-            this.mnuReplaceRemnet.Click += new System.EventHandler(this.mnuReplaceRemnet_Click);
+            this.mnuLockTaskbar.Text = "Lock Taskbar";
+            this.mnuLockTaskbar.Click += new System.EventHandler(this.mnuLockTaskbar_Click);
             // 
             // FormMain
             // 
@@ -308,6 +315,7 @@
         private System.Windows.Forms.MenuItem mnuBlacklistEnable;
         private System.Windows.Forms.MenuItem mnuAllKeys;
         private System.Windows.Forms.MenuItem mnuReplaceRemnet;
+        private System.Windows.Forms.MenuItem mnuLockTaskbar;
     }
 }
 
