@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEMTitleBarHandler", "OEMTi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remnet", "Remnet\Remnet.csproj", "{5F7EC292-D3DE-4BF1-B57C-50158E62445D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinCE_Form", "WinCE_Form\WinCE_Form.csproj", "{FD704352-8C3E-4BD5-8BFB-DC304454411C}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -27,6 +29,12 @@ Global
 		{5F7EC292-D3DE-4BF1-B57C-50158E62445D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F7EC292-D3DE-4BF1-B57C-50158E62445D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F7EC292-D3DE-4BF1-B57C-50158E62445D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FD704352-8C3E-4BD5-8BFB-DC304454411C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD704352-8C3E-4BD5-8BFB-DC304454411C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD704352-8C3E-4BD5-8BFB-DC304454411C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD704352-8C3E-4BD5-8BFB-DC304454411C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD704352-8C3E-4BD5-8BFB-DC304454411C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD704352-8C3E-4BD5-8BFB-DC304454411C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
